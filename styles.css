@@ -10,13 +10,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-image: url("https://source.unsplash.com/1920x1080/?landscape");
 }
 .caixa-maior {
     background: #1f2d47;
     opacity: 0.7;
     border-radius: 25px;
-    padding: 20px;
+    padding: 40px;
+    width: 95%;
+    max-width: 450px;
 }
 .input-cidade {
     border: none;
@@ -39,4 +41,30 @@ body {
 }
 .img-busca {
     width: 20px;
+}
+.caixa-media{
+    margin-top: 30px;
+}
+.cidade{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+}
+.temp{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.texto-previsao{
+    color: #ffffff;
+    margin-left: 20px;
+}
+.umidade{
+    color: #ffffff;
+    margin-top: 20px;
 }
